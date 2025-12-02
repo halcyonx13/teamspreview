@@ -8,6 +8,8 @@ Drawback is you can't minimise the Teams call window (keep it open in the backgr
 
 It's a bit resource heavy but it works for me, and maybe it will work for you.
 
+![alt text](https://raw.githubusercontent.com/halcyonx13/teamspreview/refs/heads/main/teamspreview_screenshot.jpg)
+
 ## How to use:
 
 ### Installing
@@ -37,3 +39,4 @@ When your Teams video call has started, open `teamspreview.exe` and choose the m
 * You can also set `"vsync": true` if you wanted vsync for whatever reason
 * If you want to use the preview with applications other than Teams, set the window filter with `"titlefilter": "Skype"` <- (this will only show windows with the word Skype in the title in the window selection screen)
 * If you want to rebuild the .exe file, I simply used `pyinstaller teamspreview.py --onefile --noconsole `
+
