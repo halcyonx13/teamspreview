@@ -2,7 +2,7 @@
 
 The Microsoft Teams pop-out preview window is inflexible. It can't be resized and has a large GUI that can't be hidden.
 
-This is a python application that uses pyglet and [windows-capture](https://github.com/NiiightmareXD/windows-capture/tree/main/windows-capture-python) to replicate the Teams video call window into a more flexible window.
+This is a python application that uses pyglet and [windows-capture](https://github.com/NiiightmareXD/windows-capture/tree/main/windows-capture-python) to replicate the Teams video call window into a more flexible window. **It can be moved, resized, zoomed, and panned.**
 
 Drawback is you can't minimise the Teams call window (keep it open in the background).
 
@@ -39,4 +39,5 @@ When your Teams video call has started, open `teamspreview.exe` and choose the m
 * You can also set `"vsync": true` if you wanted vsync for whatever reason
 * If you want to use the preview with applications other than Teams, set the window filter with `"titlefilter": "Skype"` <- (this will only show windows with the word Skype in the title in the window selection screen)
 * If you want to rebuild the .exe file, I simply used `pyinstaller teamspreview.py --onefile --noconsole `
+
 
